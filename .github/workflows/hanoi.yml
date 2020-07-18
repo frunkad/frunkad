@@ -1,0 +1,282 @@
+name: Tower Of Hanoi
+on: 
+  issues:
+    types: [opened]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@master
+        with: 
+          script: |
+            // You Human, bruh? Start from bottom. Or shoot me a DM.
+
+            const currentIssue = await github.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number
+            });
+            const author = currentIssue.data.user.login;
+            const name = currentIssue.data.title;
+
+            // configs
+            let state, originalState, newState, pastContributors;
+            let stateSHA, readmeSHA;
+            const plates = 5;
+            const blockColors = ['*','🟧','🟧','🟧','🟧','🟧','🟧'];
+            let result = ``, resultTower = ``, resultContris = ``, resultMoves = ``;
+            let move; // [move from tower, move to tower]
+
+            function assert(condition) {
+                if (!condition) throw 'failed'
+
+            }
+
+            function isValidIssue() {
+                try {
+                    move = name.split('>').map((x) => parseInt(x))
+                    assert(move[0] > 0 && move[0] <= 3)
+                    assert(move[1] > 0 && move[1] <= 3)
+                    return true;
+                } catch (e) {
+                    return false;
+                }
+            }
+
+            async function loadState() {
+                const fileContent64 = (await github.repos.getContent({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    path: 'state'
+                })).data;
+                stateSHA = fileContent64.sha;
+                fileContent = Buffer.from(fileContent64.content, 'base64').toString();
+                pastContributors = fileContent.substr(fileContent.lastIndexOf('\n')+1).split(' ');
+                originalState = fileContent.substr(0,fileContent.lastIndexOf('\n'));
+                console.log('state', originalState);
+                console.log('owner', context.repo.owner)
+                state = originalState.split('\n').map((y)=>y.split(',').map((x)=>parseInt(x)))
+            }
+
+            function contributedRecently() {
+                if (author == context.repo.owner || pastContributors[0] !== author) return false;
+                return true;
+            }
+
+            function getTopElement(tower) {
+                for (let i = 0; i < plates; i++)
+                    if (state[tower-1][i] !== 0) return state[tower-1][i]
+                return 0;
+            }
+
+            function pushTopElement(tower, v) {
+                for (let i = 0; i < plates; i++)
+                    if (state[tower-1][i] !== 0) {
+                        state[tower-1][i-1] = v;
+                        return
+                    }
+                state[tower - 1][plates - 1] = v; 
+            }
+
+            function replaceTopElement(tower, v) {
+                for (let i = 0; i < plates; i++)
+                    if (state[tower-1][i] !== 0) {
+                        state[tower-1][i] = v;
+                        return
+                    }
+                state[tower - 1][plates - 1] = v; 
+            }
+
+            function isValidMove() {
+                return getTopElement(move[0]) != 0 && (getTopElement(move[1]) > getTopElement(move[0]) || getTopElement(move[1]) === 0);
+            }
+
+            async function addLabel(s) {
+                await github.issues.addLabels({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: context.issue.number,
+                    labels: s
+                })
+            }
+
+            async function postComment(s) {
+                await github.issues.createComment({
+                    issue_number: context.issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    body: s
+                });
+                console.log(s);
+            }
+
+            async function congratulate() {
+                await postComment('Woohoo!! You are the Star-Lord!:tada: The Tower of Hanoi is finally solved. Add it to your list of trophies :trophy::trophy: [Share it on twitter](https://twitter.com/intent/tweet?text=I%20solved%20the%20Tower%20Of%20Hanoi%20on%20%40github%21%21%20%20Let%27s%20do%20it%20again%2C%20together.%20https%3A%2F%2Fgithub.com%2Ffrunkad%20by%20%40frunkad).');
+                await postComment('![Star Lord](https://media.giphy.com/media/RtKl3EEM3hl4c/giphy.gif)')
+                await addLabel(['StarLord', 'Champion'])
+            }
+
+            function movePlate() {
+                pushTopElement(move[1], getTopElement(move[0]));
+                replaceTopElement(move[0], 0);
+            }
+
+            function gameFinished() {
+                // the top most element of 3rd tower is 1
+                return state[2][0] === 1;
+            }
+
+            function cleanUp() {
+                state = [[],[],[]]
+                for (var i = 0; i < plates; i++) {
+                    state[0][i] = i+1;
+                    state[1][i] = 0;
+                    state[2][i] = 0;
+                }
+            }
+
+            function buildTower() {
+                for (let i = 0; i < plates; i++) {
+                    resultTower += `|${blockColors[state[0][i]].repeat(state[0][i] || 1)}`
+                    resultTower += `|${blockColors[state[1][i]].repeat(state[1][i] || 1)}`
+                    resultTower += `|${blockColors[state[2][i]].repeat(state[2][i] || 1)}`
+                    resultTower += `|\n`
+                }
+            }
+
+            function builtContributors() {
+                pastContributors.unshift(author);
+                if(pastContributors.length > 10) pastContributors.pop()
+                for (let i = 0; i < pastContributors.length; i++) {
+                    resultContris += `|${i+1}|[@${pastContributors[i]}](https://github.com/${pastContributors[i]})|\n`
+                }
+            }
+
+            async function closeIssue() {
+                await github.issues.update({ 
+                    issue_number: context.issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    state: 'closed'                    
+                })
+            }
+
+            function finalizeState() {
+                resultMoves = '|'
+                if (getTopElement(1) !== 0) {
+                    if (getTopElement(2) > getTopElement(1) || getTopElement(2) === 0)
+                        resultMoves += '[2️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>2&body=That\'s+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+2.Submit+to+play+along.)';
+                    if (getTopElement(3) > getTopElement(1) || getTopElement(3) === 0)
+                        resultMoves += '[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That\'s+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)';
+                    resultMoves += '|';
+                } else resultMoves += '|';
+                if (getTopElement(2) !== 0) {
+                    if (getTopElement(1) > getTopElement(2) || getTopElement(1) === 0)
+                        resultMoves += '[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That\'s+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)';
+                    if (getTopElement(3) > getTopElement(2) || getTopElement(3) === 0)
+                        resultMoves += '[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That\'s+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)';
+                    resultMoves += '|';
+                } else resultMoves += '|';
+                if (getTopElement(3) !== 0) {
+                    if (getTopElement(1) > getTopElement(3) || getTopElement(1) === 0)
+                        resultMoves += '[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>1&body=That\'s+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+1.Submit+to+play+along.)';
+                    if (getTopElement(2) > getTopElement(3) || getTopElement(2) === 0)
+                        resultMoves += '[2️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>2&body=That\'s+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+2.Submit+to+play+along.)';
+                    resultMoves += '|\n';
+                } else resultMoves += '|';
+            }
+
+            async function saveState() {
+                const newState = state.join('\n')+'\n'+pastContributors.join(' ');
+                await github.repos.createOrUpdateFileContents({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    path: 'state',
+                    message: `Move by @${currentIssue.data.user.login}`,
+                    content: Buffer.from(newState).toString('base64'),
+                    sha: stateSHA
+                })
+
+                console.log(result);
+            }
+
+            async function saveREADME() {
+                const AboutMe64 = (await github.repos.getContent({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    path: 'ABOUTME.md'
+                })).data;
+                const aboutme = Buffer.from(AboutMe64.content,'base64').toString();
+                result = `# frunkad [fra/n/kaad] 
+            GitHub for me is a collaborating team, let's play a game, as a team.
+            ### Tower of Hanoi
+            | Tower 1️ | Tower 2️ | Tower 3️ |  
+            | :-: | :-: | :-: |
+            ${resultTower}${resultMoves}
+            
+            Last move by **[@${author}](https://github.com/${author})**. Click the buttons 1️⃣2️⃣3️⃣ above to move.\n\n The task is to move all the plates from Tower 1 to Tower 3. Rules of the game:\n
+            - Can only move one plate at a time.  
+            - A large plate cannot be placed over a smaller one.  \n\n
+
+            #### Click to play:  
+
+            **Tower 1:** ${resultMoves.split('|')[1]}  
+            **Tower 2:** ${resultMoves.split('|')[2]}  
+            **Tower 3:** ${resultMoves.split('|')[3]}  
+
+            ### Last Players
+
+            |-|Name|
+            |:-:|:-:|
+            ${resultContris}\n\n***\n\n${aboutme}
+            `;
+                console.log(result);
+                
+                // get current readme before updating
+                const fileContent64 = (await github.repos.getContent({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    path: 'README.md'
+                })).data;
+
+                await github.repos.createOrUpdateFileContents({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    path: 'README.md',
+                    message: `Move by @${currentIssue.data.user.login}`,
+                    content: Buffer.from(result).toString('base64'),
+                    sha: fileContent64.sha
+                })
+            }
+
+            async function main() {
+                if (isValidIssue()) {
+                    await loadState();
+                    if (!isValidMove()) {
+                        await postComment('Looks like that was an invalid move! Maybe someone attempted a move at the same time. Here\'s a cookie :cookie: tho.');
+                        await addLabel(['bug']);
+                    } else if (contributedRecently()) {
+                        await postComment('In this team sport, we play one by one. [Invite your friends](https://twitter.com/intent/tweet?text=Let%27s%20play%20Tower%20Of%20Hanoi%20together%20on%20%40github%21%20https%3A%2F%2Fgithub.com%2Ffrunkad%20Here%27s%20a%20free%20%F0%9F%8D%95%20too%20by%20%40frunkad%20) to play. There\'s free :pizza: for them too.');
+                    } else {
+                        movePlate();
+                        if (gameFinished()) {
+                            congratulate();
+                            cleanUp();
+                        } else {
+                            await postComment('Hey there champion! You successfully moved a heavy block! :star2: See it at [frunkad](https://github.com/frunkad/frunkad)');
+                        }
+                        buildTower();
+                        builtContributors();
+                        finalizeState();
+                        await saveState();
+                        await saveREADME();
+                    }
+                    await closeIssue();
+                } else {
+                    await postComment('I did not understand that issue name, tagging @frunkad to follow up!')
+                    await addLabel(['Needs Attention'])
+                }
+            }
+
+            await main();
