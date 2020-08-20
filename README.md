@@ -6,9 +6,9 @@ GitHub for me is a collaborating team, let's play a game, as a team.
 |*|*|*|
 |*|*|*|
 |*|*|*|
-|🟧|*|🟧🟧|
+|🟧|🟧🟧|*|
 |🟧🟧🟧🟧🟧|🟧🟧🟧|🟧🟧🟧🟧|
-|[2️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+2.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)||[2️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+2.Submit+to+play+along.)|
+|[2️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+2.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)|[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)||
 
 
 Last move by **[@aanurraj](https://github.com/aanurraj)**. Click the buttons 1️⃣2️⃣3️⃣ above to move.
@@ -23,8 +23,8 @@ Last move by **[@aanurraj](https://github.com/aanurraj)**. Click the buttons 1�
 #### Click to play:  
 
 **Tower 1:** [2️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+2.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)  
-**Tower 2:**   
-**Tower 3:** [2️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+2.Submit+to+play+along.)  
+**Tower 2:** [3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)  
+**Tower 3:**   
 
 ### Last Players
 
@@ -32,12 +32,12 @@ Last move by **[@aanurraj](https://github.com/aanurraj)**. Click the buttons 1�
 |:-:|:-:|
 |1|[@aanurraj](https://github.com/aanurraj)|
 |2|[@aanurraj](https://github.com/aanurraj)|
-|3|[@midopooler](https://github.com/midopooler)|
-|4|[@RoanFourie](https://github.com/RoanFourie)|
-|5|[@bence-toth](https://github.com/bence-toth)|
-|6|[@quinnzipse](https://github.com/quinnzipse)|
-|7|[@Mohit-Swain](https://github.com/Mohit-Swain)|
-|8|[@mijailr](https://github.com/mijailr)|
+|3|[@aanurraj](https://github.com/aanurraj)|
+|4|[@midopooler](https://github.com/midopooler)|
+|5|[@RoanFourie](https://github.com/RoanFourie)|
+|6|[@bence-toth](https://github.com/bence-toth)|
+|7|[@quinnzipse](https://github.com/quinnzipse)|
+|8|[@Mohit-Swain](https://github.com/Mohit-Swain)|
 |9|[@mijailr](https://github.com/mijailr)|
 |10|[@mijailr](https://github.com/mijailr)|
 
