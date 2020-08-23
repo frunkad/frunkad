@@ -4,11 +4,12 @@ GitHub for me is a collaborating team, let's play a game, as a team.
 | Tower 1️ | Tower 2️ | Tower 3️ |  
 | :-: | :-: | :-: |
 |*|*|*|
-|🟧🟧|*|*|
+|*|*|*|
 |🟧🟧🟧|*|*|
 |🟧🟧🟧🟧|*|*|
-|🟧🟧🟧🟧🟧|🟧|*|
-|[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)|[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)||
+|🟧🟧🟧🟧🟧|🟧|🟧🟧|
+||[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)|[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+1.Submit+to+play+along.)|
+
 
 Last move by **[@PuRgE-CoDeE](https://github.com/PuRgE-CoDeE)**. Click the buttons 1️⃣2️⃣3️⃣ above to move.
 
@@ -21,16 +22,16 @@ Last move by **[@PuRgE-CoDeE](https://github.com/PuRgE-CoDeE)**. Click the butto
 
 #### Click to play:  
 
-**Tower 1:** [3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)  
+**Tower 1:**   
 **Tower 2:** [1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)  
-**Tower 3:**   
+**Tower 3:** [1️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+1.Submit+to+play+along.)  
 
 ### Last Players
 
 |-|Name|
 |:-:|:-:|
 |1|[@PuRgE-CoDeE](https://github.com/PuRgE-CoDeE)|
-|2|[@aanurraj](https://github.com/aanurraj)|
+|2|[@PuRgE-CoDeE](https://github.com/PuRgE-CoDeE)|
 |3|[@aanurraj](https://github.com/aanurraj)|
 |4|[@aanurraj](https://github.com/aanurraj)|
 |5|[@aanurraj](https://github.com/aanurraj)|
