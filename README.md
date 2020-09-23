@@ -6,9 +6,10 @@ GitHub for me is a collaborating team, let's play a game, as a team.
 |*|*|*|
 |*|*|*|
 |*|🟧|*|
-|🟧🟧🟧🟧|🟧🟧|*|
-|🟧🟧🟧🟧🟧|🟧🟧🟧|*|
-|[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)|[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)||
+|*|🟧🟧|*|
+|🟧🟧🟧🟧🟧|🟧🟧🟧|🟧🟧🟧🟧|
+||[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)|[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+1.Submit+to+play+along.)|
+
 
 Last move by **[@LON3WO7F](https://github.com/LON3WO7F)**. Click the buttons 1️⃣2️⃣3️⃣ above to move.
 
@@ -21,9 +22,9 @@ Last move by **[@LON3WO7F](https://github.com/LON3WO7F)**. Click the buttons 1�
 
 #### Click to play:  
 
-**Tower 1:** [3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)  
+**Tower 1:**   
 **Tower 2:** [1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)  
-**Tower 3:**   
+**Tower 3:** [1️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+1.Submit+to+play+along.)  
 
 ### Last Players
 
@@ -33,10 +34,10 @@ Last move by **[@LON3WO7F](https://github.com/LON3WO7F)**. Click the buttons 1�
 |2|[@LON3WO7F](https://github.com/LON3WO7F)|
 |3|[@LON3WO7F](https://github.com/LON3WO7F)|
 |4|[@LON3WO7F](https://github.com/LON3WO7F)|
-|5|[@PuRgE-CoDeE](https://github.com/PuRgE-CoDeE)|
+|5|[@LON3WO7F](https://github.com/LON3WO7F)|
 |6|[@PuRgE-CoDeE](https://github.com/PuRgE-CoDeE)|
 |7|[@PuRgE-CoDeE](https://github.com/PuRgE-CoDeE)|
-|8|[@aanurraj](https://github.com/aanurraj)|
+|8|[@PuRgE-CoDeE](https://github.com/PuRgE-CoDeE)|
 |9|[@aanurraj](https://github.com/aanurraj)|
 |10|[@aanurraj](https://github.com/aanurraj)|
 
