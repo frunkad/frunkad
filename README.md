@@ -6,9 +6,10 @@ GitHub for me is a collaborating team, let's play a game, as a team.
 |*|*|*|
 |*|*|*|
 |🟧|*|*|
-|🟧🟧🟧🟧|🟧🟧|*|
-|🟧🟧🟧🟧🟧|🟧🟧🟧|*|
-|[2️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+2.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)|[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)||
+|🟧🟧🟧🟧|*|*|
+|🟧🟧🟧🟧🟧|🟧🟧🟧|🟧🟧|
+|[2️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+2.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)||[2️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+2.Submit+to+play+along.)|
+
 
 Last move by **[@lakshyatyagi24](https://github.com/lakshyatyagi24)**. Click the buttons 1️⃣2️⃣3️⃣ above to move.
 
@@ -22,8 +23,8 @@ Last move by **[@lakshyatyagi24](https://github.com/lakshyatyagi24)**. Click the
 #### Click to play:  
 
 **Tower 1:** [2️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+2.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)  
-**Tower 2:** [3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)  
-**Tower 3:**   
+**Tower 2:**   
+**Tower 3:** [2️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+2.Submit+to+play+along.)  
 
 ### Last Players
 
@@ -34,7 +35,7 @@ Last move by **[@lakshyatyagi24](https://github.com/lakshyatyagi24)**. Click the
 |3|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
 |4|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
 |5|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
-|6|[@LON3WO7F](https://github.com/LON3WO7F)|
+|6|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
 |7|[@LON3WO7F](https://github.com/LON3WO7F)|
 |8|[@LON3WO7F](https://github.com/LON3WO7F)|
 |9|[@LON3WO7F](https://github.com/LON3WO7F)|
