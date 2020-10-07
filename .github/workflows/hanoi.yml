@@ -23,7 +23,7 @@ jobs:
             // configs
             let state, originalState, newState, pastContributors;
             let stateSHA, readmeSHA;
-            const plates = 5;
+            const plates = 4;
             const blockColors = ['*','🟧','🟧','🟧','🟧','🟧','🟧'];
             let result = ``, resultTower = ``, resultContris = ``, resultMoves = ``;
             let move; // [move from tower, move to tower]
