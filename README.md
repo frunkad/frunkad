@@ -3,14 +3,13 @@ GitHub for me is a collaborating team, let's play a game, as a team.
 ### Tower of Hanoi
 | Tower 1️ | Tower 2️ | Tower 3️ |  
 | :-: | :-: | :-: |
-|🟧|*|*|
+|*|*|*|
 |🟧🟧|*|*|
 |🟧🟧🟧|*|*|
-|🟧🟧🟧🟧|*|*|
-|🟧🟧🟧🟧🟧|*|*|
-|[2️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+2.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)|||
+|🟧🟧🟧🟧|🟧|*|
+|[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)|[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)||
 
-Last move by **[@lakshyatyagi24](https://github.com/lakshyatyagi24)**. Click the buttons 1️⃣2️⃣3️⃣ above to move.
+Last move by **[@frunkad](https://github.com/frunkad)**. Click the buttons 1️⃣2️⃣3️⃣ above to move.
 
  The task is to move all the plates from Tower 1 to Tower 3. Rules of the game:
 
@@ -21,15 +20,15 @@ Last move by **[@lakshyatyagi24](https://github.com/lakshyatyagi24)**. Click the
 
 #### Click to play:  
 
-**Tower 1:** [2️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+2.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)  
-**Tower 2:**   
+**Tower 1:** [3️⃣](https://github.com/frunkad/frunkad/issues/new?title=1>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+1+to+tower+3.Submit+to+play+along.)  
+**Tower 2:** [1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)  
 **Tower 3:**   
 
 ### Last Players
 
 |-|Name|
 |:-:|:-:|
-|1|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
+|1|[@frunkad](https://github.com/frunkad)|
 |2|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
 |3|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
 |4|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
