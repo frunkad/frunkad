@@ -5,9 +5,9 @@ GitHub for me is a collaborating team, let's play a game, as a team.
 | :-: | :-: | :-: |
 |*|*|*|
 |*|*|*|
-|*|*|🟧|
+|*|🟧|*|
 |🟧🟧🟧🟧|🟧🟧🟧|🟧🟧|
-||[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)|[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+1.Submit+to+play+along.)[2️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+2.Submit+to+play+along.)|
+||[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)|[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+1.Submit+to+play+along.)|
 
 
 Last move by **[@frunkad](https://github.com/frunkad)**. Click the buttons 1️⃣2️⃣3️⃣ above to move.
@@ -22,18 +22,18 @@ Last move by **[@frunkad](https://github.com/frunkad)**. Click the buttons 1️�
 #### Click to play:  
 
 **Tower 1:**   
-**Tower 2:** [1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)  
-**Tower 3:** [1️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+1.Submit+to+play+along.)[2️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>2&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+2.Submit+to+play+along.)  
+**Tower 2:** [1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)  
+**Tower 3:** [1️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+1.Submit+to+play+along.)  
 
 ### Last Players
 
 |-|Name|
 |:-:|:-:|
 |1|[@frunkad](https://github.com/frunkad)|
-|2|[@SiddPatki](https://github.com/SiddPatki)|
-|3|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
-|4|[@frunkad](https://github.com/frunkad)|
-|5|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
+|2|[@frunkad](https://github.com/frunkad)|
+|3|[@SiddPatki](https://github.com/SiddPatki)|
+|4|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
+|5|[@frunkad](https://github.com/frunkad)|
 |6|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
 |7|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
 |8|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
