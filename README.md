@@ -1,47 +1,5 @@
 # frunkad [fra/n/kaad] 
 GitHub for me is a collaborating team, let's play a game, as a team.
-### Tower of Hanoi
-| Tower 1️ | Tower 2️ | Tower 3️ |  
-| :-: | :-: | :-: |
-|*|*|*|
-|*|*|*|
-|*|🟧|*|
-|🟧🟧🟧🟧|🟧🟧🟧|🟧🟧|
-||[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)|[1️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+1.Submit+to+play+along.)|
-
-
-Last move by **[@frunkad](https://github.com/frunkad)**. Click the buttons 1️⃣2️⃣3️⃣ above to move.
-
- The task is to move all the plates from Tower 1 to Tower 3. Rules of the game:
-
-- Can only move one plate at a time.  
-- A large plate cannot be placed over a smaller one.  
-
-
-
-#### Click to play:  
-
-**Tower 1:**   
-**Tower 2:** [1️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+1.Submit+to+play+along.)[3️⃣](https://github.com/frunkad/frunkad/issues/new?title=2>3&body=That's+it!+This+issue+would+move+top+plate+from+tower+2+to+tower+3.Submit+to+play+along.)  
-**Tower 3:** [1️⃣](https://github.com/frunkad/frunkad/issues/new?title=3>1&body=That's+it!+This+issue+would+move+top+plate+from+tower+3+to+tower+1.Submit+to+play+along.)  
-
-### Last Players
-
-|-|Name|
-|:-:|:-:|
-|1|[@frunkad](https://github.com/frunkad)|
-|2|[@frunkad](https://github.com/frunkad)|
-|3|[@SiddPatki](https://github.com/SiddPatki)|
-|4|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
-|5|[@frunkad](https://github.com/frunkad)|
-|6|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
-|7|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
-|8|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
-|9|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
-|10|[@lakshyatyagi24](https://github.com/lakshyatyagi24)|
-
-
-***
 
 Hey there! :wave:
 
