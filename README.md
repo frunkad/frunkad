@@ -1,5 +1,4 @@
 # frunkad [fra/n/kaad] 
-GitHub for me is a collaborating team, let's play a game, as a team.
 
 Hey there! :wave:
 
